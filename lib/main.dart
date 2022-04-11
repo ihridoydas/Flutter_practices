@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_catelog_demo/pages/home_page.dart';
-import 'package:flutter_catelog_demo/pages/login_page.dart';
-import 'package:flutter_catelog_demo/utils/routes.dart';
+import 'package:iReport_Flutter/pages/home_page.dart';
+import 'package:iReport_Flutter/pages/login_page.dart';
+import 'package:iReport_Flutter/utils/routes.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.light,
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
-        fontFamily: GoogleFonts.lato().fontFamily,
+        fontFamily: GoogleFonts .lato().fontFamily,
       ),
       darkTheme: ThemeData(
         brightness: Brightness.dark,
