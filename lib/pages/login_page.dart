@@ -83,7 +83,7 @@ class _LoginPageState extends State<LoginPage> {
                           if (value!.isEmpty) {
                             return "Please Enter Password";
                           }
-                          if (value!.length < 6) {
+                          if (value.length < 6) {
                             return "password length should be atleast 6 ";
                           }
                           return null;
